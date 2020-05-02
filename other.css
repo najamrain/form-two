@@ -9,7 +9,7 @@ body {
   overflow: hidden;
 }
 .container2 {
-  width: 90%;
+  width: 100%;
   padding: 20px;
 }
 
@@ -152,9 +152,8 @@ input[type="submit"] {
   border-radius: 3px;
   transition: 0.5s;
 }
-
-@media (max-width: 800px) {
-  .container .row100 .inputBox .line1 {
-    height: 2px;
+@media (max-width: 490px) {
+  input[type="submit"] {
+    padding: 0.9rem 9rem;
   }
 }
